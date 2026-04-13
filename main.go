@@ -19,7 +19,6 @@ import (
 // @title Demo API
 // @version 1.0
 // @description Simple SaaS API with JWT Auth
-// @host localhost:8080
 // @BasePath /
 // @securityDefinitions.apikey BearerAuth
 // @in header
