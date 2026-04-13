@@ -6,7 +6,7 @@
         "contact": {},
         "version": "1.0"
     },
-    "host": "your-app-name.onrender.com",
+    "host": "https://dashboard.render.com",
     "schemes": [
         "https"
     ],
