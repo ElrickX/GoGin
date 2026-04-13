@@ -6,7 +6,10 @@
         "contact": {},
         "version": "1.0"
     },
-    "host": "localhost:8080",
+    "host": "your-app-name.onrender.com",
+    "schemes": [
+        "https"
+    ],
     "basePath": "/",
     "paths": {
         "/login": {
