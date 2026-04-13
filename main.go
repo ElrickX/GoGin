@@ -51,7 +51,7 @@ func main() {
 
 	log.Println("🚀 Server started on port:", port)
 
-	err := http.ListenAndServe(":"+port, enableCORS(nil))
+	err := http.ListenAndServe(":"+port, enableCORS(http.DefaultServeMux))
 	if err != nil {
 		log.Fatal(err)
 	}
